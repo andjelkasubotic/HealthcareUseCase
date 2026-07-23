@@ -18,8 +18,8 @@ def write_reports(result: EvalRunResult, output_dir: Path) -> tuple[Path, Path]:
     md_path = output_dir / "report.md"
 
     payload = result.model_dump(mode="json")
-    json_path.write_text(json.dumps(payload, indent=2) + "\n")
-    md_path.write_text(format_report_markdown(result))
+    json_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    md_path.write_text(format_report_markdown(result), encoding="utf-8")
 
     return json_path, md_path
 
@@ -121,8 +121,8 @@ def write_api_smoke_reports(
         "n_failed": result.n_failed,
         "all_passed": result.all_passed,
     }
-    json_path.write_text(json.dumps(payload, indent=2) + "\n")
-    md_path.write_text(format_api_smoke_markdown(result))
+    json_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    md_path.write_text(format_api_smoke_markdown(result), encoding="utf-8")
 
     return json_path, md_path
 
