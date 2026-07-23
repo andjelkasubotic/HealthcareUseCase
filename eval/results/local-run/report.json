@@ -1,0 +1,785 @@
+{
+  "config": {
+    "mode": "classify-only",
+    "dataset_path": "data/eval/labeled.jsonl",
+    "llm_mode": "openai",
+    "classify_model": "gpt-4.1-mini",
+    "prompt_version": "v1",
+    "started_at": "2026-07-23T04:38:39.403234Z"
+  },
+  "metrics": {
+    "per_class": {
+      "emergent": {
+        "precision": 0.6,
+        "recall": 0.9,
+        "f1": 0.72,
+        "support": 10
+      },
+      "urgent": {
+        "precision": 0.65,
+        "recall": 0.7222222222222222,
+        "f1": 0.6842105263157895,
+        "support": 36
+      },
+      "routine": {
+        "precision": 0.6666666666666666,
+        "recall": 0.48,
+        "f1": 0.5581395348837209,
+        "support": 25
+      },
+      "admin": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support": 4
+      }
+    },
+    "macro": {
+      "precision": 0.7291666666666666,
+      "recall": 0.6505555555555556,
+      "f1": 0.6572541819665443
+    },
+    "emergent_recall": 0.9,
+    "confusion_matrix": {
+      "labels": [
+        "emergent",
+        "urgent",
+        "routine",
+        "admin"
+      ],
+      "matrix": [
+        [
+          9,
+          1,
+          0,
+          0
+        ],
+        [
+          6,
+          26,
+          4,
+          0
+        ],
+        [
+          0,
+          13,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          2
+        ]
+      ]
+    },
+    "classification_report": "              precision    recall  f1-score   support\n\n    emergent       0.60      0.90      0.72        10\n      urgent       0.65      0.72      0.68        36\n     routine       0.67      0.48      0.56        25\n       admin       1.00      0.50      0.67         4\n\n    accuracy                           0.65        75\n   macro avg       0.73      0.65      0.66        75\nweighted avg       0.67      0.65      0.65        75\n",
+    "n_examples": 75
+  },
+  "predictions": [
+    {
+      "id": "chatdoctor-00001",
+      "label": "emergent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00002",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00003",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00004",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00005",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00006",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00007",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00008",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00009",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00010",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00011",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00012",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00013",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00014",
+      "label": "urgent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent",
+        "urgent"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00015",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00016",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00017",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00018",
+      "label": "urgent",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00019",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00020",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00021",
+      "label": "urgent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00022",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00023",
+      "label": "urgent",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00024",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00025",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00026",
+      "label": "emergent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00027",
+      "label": "urgent",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00028",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00029",
+      "label": "emergent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00030",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00031",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00032",
+      "label": "emergent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00033",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00034",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00035",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00036",
+      "label": "emergent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent",
+        "urgent",
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00037",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00038",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00039",
+      "label": "urgent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00040",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00041",
+      "label": "urgent",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00042",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00043",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00044",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00045",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": false
+    },
+    {
+      "id": "chatdoctor-00046",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00047",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00048",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00049",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "admin"
+      ],
+      "correct": true
+    },
+    {
+      "id": "chatdoctor-00050",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-001",
+      "label": "emergent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-002",
+      "label": "emergent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-003",
+      "label": "emergent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-004",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "admin"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-005",
+      "label": "urgent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": false
+    },
+    {
+      "id": "hc-006",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "admin"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-007",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-008",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-009",
+      "label": "admin",
+      "predicted": "admin",
+      "predicted_all": [
+        "admin"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-010",
+      "label": "admin",
+      "predicted": "admin",
+      "predicted_all": [
+        "admin"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-011",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-012",
+      "label": "emergent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-013",
+      "label": "urgent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent",
+        "admin"
+      ],
+      "correct": false
+    },
+    {
+      "id": "hc-014",
+      "label": "urgent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent",
+        "admin"
+      ],
+      "correct": false
+    },
+    {
+      "id": "hc-015",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine",
+        "admin"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-016",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-017",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-018",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-019",
+      "label": "admin",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine",
+        "admin"
+      ],
+      "correct": false
+    },
+    {
+      "id": "hc-020",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-021",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "hc-022",
+      "label": "routine",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": false
+    },
+    {
+      "id": "hc-023",
+      "label": "admin",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine",
+        "admin"
+      ],
+      "correct": false
+    },
+    {
+      "id": "hc-024",
+      "label": "emergent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "routine"
+      ],
+      "correct": false
+    },
+    {
+      "id": "hc-025",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    }
+  ]
+}

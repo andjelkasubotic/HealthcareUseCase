@@ -1,0 +1,12 @@
+{"id": "seed-001", "message": "My lips and tongue are swelling after starting a new antibiotic yesterday. I also feel dizzy.", "label": "emergent", "source": "seed", "tags": ["clinical"]}
+{"id": "seed-002", "message": "I have a rash spreading quickly across my chest and I have a fever of 101.", "label": "emergent", "source": "seed", "tags": ["clinical"]}
+{"id": "seed-003", "message": "There is a mole on my back that has gotten darker and larger over the past month.", "label": "urgent", "source": "seed", "tags": ["clinical"]}
+{"id": "seed-004", "message": "My eczema is flaring badly and the itching is keeping me awake most nights.", "label": "urgent", "source": "seed", "tags": ["clinical"]}
+{"id": "seed-005", "message": "Can you recommend a gentle moisturizer for dry winter skin on my arms?", "label": "routine", "source": "seed", "tags": ["clinical"]}
+{"id": "seed-006", "message": "I finished my topical cream two weeks ago and the mild redness is about the same.", "label": "routine", "source": "seed", "tags": ["clinical"]}
+{"id": "seed-007", "message": "I need to reschedule my follow-up appointment for next Tuesday.", "label": "admin", "source": "seed", "tags": ["admin_only"]}
+{"id": "seed-008", "message": "What is my copay for a dermatology visit and how do I pay online?", "label": "admin", "source": "seed", "tags": ["admin_only"]}
+{"id": "seed-009", "message": "Hi, I have a billing question about my last statement. Also I noticed a painful blistering rash on my hands that started yesterday.", "label": "urgent", "source": "seed", "tags": ["mixed_intent"]}
+{"id": "seed-010", "message": "Please send my medical records to my new primary care doctor.", "label": "admin", "source": "seed", "tags": ["admin_only"]}
+{"id": "seed-011", "message": "After my skin biopsy last week the site is red, warm, and draining yellow fluid with chills.", "label": "emergent", "source": "seed", "tags": ["clinical"]}
+{"id": "seed-012", "message": "Is it normal for retinoid cream to cause mild peeling during the first week?", "label": "routine", "source": "seed", "tags": ["clinical"]}

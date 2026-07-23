@@ -1,0 +1,5 @@
+{"id": "chatdoctor-00001", "message": "I have a red itchy rash on my arms that started after a new soap.", "source": "chatdoctor", "source_index": 0, "matched_keywords": ["itch", "itchy", "rash"]}
+{"id": "chatdoctor-00002", "message": "There is a dark mole on my shoulder that changed shape recently.", "source": "chatdoctor", "source_index": 2, "matched_keywords": ["mole"]}
+{"id": "chatdoctor-00003", "message": "My eczema flare is worse and the skin is very itchy and scaly.", "source": "chatdoctor", "source_index": 4, "matched_keywords": ["eczema", "itch", "itchy", "scaly", "skin"]}
+{"id": "chatdoctor-00004", "message": "Painful blisters appeared on my hands after sun exposure.", "source": "chatdoctor", "source_index": 6, "matched_keywords": ["blister"]}
+{"id": "chatdoctor-00005", "message": "Lip swelling and hives began one hour after taking an antibiotic.", "source": "chatdoctor", "source_index": 9, "matched_keywords": ["hives", "lip swelling", "swelling"]}

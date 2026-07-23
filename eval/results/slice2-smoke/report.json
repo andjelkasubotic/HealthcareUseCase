@@ -1,0 +1,191 @@
+{
+  "config": {
+    "mode": "classify-only",
+    "dataset_path": "data/eval/fixtures/seed.jsonl",
+    "llm_mode": "openai",
+    "classify_model": "gpt-4.1-mini",
+    "prompt_version": "v1",
+    "started_at": "2026-07-18T15:47:07.401912Z"
+  },
+  "metrics": {
+    "per_class": {
+      "emergent": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "support": 3
+      },
+      "urgent": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571,
+        "support": 3
+      },
+      "routine": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "admin": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      }
+    },
+    "macro": {
+      "precision": 0.9375,
+      "recall": 0.9166666666666666,
+      "f1": 0.9142857142857143
+    },
+    "emergent_recall": 0.6666666666666666,
+    "confusion_matrix": {
+      "labels": [
+        "emergent",
+        "urgent",
+        "routine",
+        "admin"
+      ],
+      "matrix": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "classification_report": "              precision    recall  f1-score   support\n\n    emergent       1.00      0.67      0.80         3\n      urgent       0.75      1.00      0.86         3\n     routine       1.00      1.00      1.00         3\n       admin       1.00      1.00      1.00         3\n\n    accuracy                           0.92        12\n   macro avg       0.94      0.92      0.91        12\nweighted avg       0.94      0.92      0.91        12\n",
+    "n_examples": 12
+  },
+  "predictions": [
+    {
+      "id": "seed-001",
+      "label": "emergent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "seed-002",
+      "label": "emergent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": false
+    },
+    {
+      "id": "seed-003",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "seed-004",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "seed-005",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "seed-006",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    },
+    {
+      "id": "seed-007",
+      "label": "admin",
+      "predicted": "admin",
+      "predicted_all": [
+        "admin"
+      ],
+      "correct": true
+    },
+    {
+      "id": "seed-008",
+      "label": "admin",
+      "predicted": "admin",
+      "predicted_all": [
+        "admin"
+      ],
+      "correct": true
+    },
+    {
+      "id": "seed-009",
+      "label": "urgent",
+      "predicted": "urgent",
+      "predicted_all": [
+        "urgent",
+        "admin"
+      ],
+      "correct": true
+    },
+    {
+      "id": "seed-010",
+      "label": "admin",
+      "predicted": "admin",
+      "predicted_all": [
+        "admin"
+      ],
+      "correct": true
+    },
+    {
+      "id": "seed-011",
+      "label": "emergent",
+      "predicted": "emergent",
+      "predicted_all": [
+        "emergent"
+      ],
+      "correct": true
+    },
+    {
+      "id": "seed-012",
+      "label": "routine",
+      "predicted": "routine",
+      "predicted_all": [
+        "routine"
+      ],
+      "correct": true
+    }
+  ]
+}

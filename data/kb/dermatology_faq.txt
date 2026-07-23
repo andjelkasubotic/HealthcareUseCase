@@ -1,0 +1,52 @@
+## faq-001 — Portal response times
+Our dermatology portal is monitored during business hours (Mon–Fri, 8am–5pm).
+Routine messages receive a clinician review within 1–2 business days.
+Urgent messages are reviewed within 24–72 hours.
+Do not use the portal for life-threatening emergencies — call 911 or go to the ER.
+
+## faq-002 — Appointment scheduling
+To reschedule or cancel, reply with your preferred dates or call the front desk.
+Same-day appointment requests are reviewed but not guaranteed.
+Include your full name and date of birth when requesting schedule changes.
+
+## faq-003 — Billing and insurance
+For copay, statement, or insurance questions, our billing team will respond within 3 business days.
+We cannot discuss specific charges without verifying your identity.
+Do not send credit card numbers through the portal.
+
+## faq-004 — Prescription refills (no red flags)
+For routine refills of existing dermatology medications with no new symptoms,
+a clinician will review your chart and respond within 2 business days.
+If you have new or worsening symptoms, describe them in your message.
+
+## faq-005 — Mild rash or itch (routine)
+For mild, stable rashes or itch without fever, facial swelling, or rapid spreading,
+a clinician will review your message and recommend next steps.
+Do not start, stop, or change medications without clinician approval.
+We cannot diagnose or prescribe through the portal message alone.
+
+## faq-006 — Changing mole or new lesion (urgent)
+Reports of a new or changing pigmented lesion, growing mole, or non-healing spot
+are treated as clinically concerning and prioritized for clinician review within 24–72 hours.
+A clinician will determine whether an in-person visit or biopsy is needed.
+We will not diagnose skin cancer through a portal message.
+
+## faq-007 — Severe flare of chronic condition (urgent)
+If you describe a severe flare of eczema, psoriasis, or similar condition,
+a clinician will review promptly and contact you about treatment options.
+Do not adjust steroid or immunosuppressant doses on your own.
+
+## faq-008 — Emergency escalation (emergent)
+If you report facial or lip swelling, difficulty breathing, fever with a rapidly spreading rash,
+mucosal involvement, or signs of a severe drug reaction, the message is flagged for same-day review.
+For immediate danger, call 911. A clinician will follow up as soon as possible.
+
+## faq-009 — Post-operative wound concerns (urgent/emergent)
+Increasing pain, spreading redness, pus, or fever after a skin procedure requires prompt review.
+Describe when the procedure was done and what changes you notice.
+For severe pain or fever, seek emergency care and notify us through the portal.
+
+## faq-010 — What clinicians will not do via portal
+Clinicians do not provide diagnoses, prescribe new medications, or change dosages
+based on portal messages alone. All replies are drafts for clinician review before sending.
+Your message helps us triage and prepare a response — it is not a substitute for an exam.

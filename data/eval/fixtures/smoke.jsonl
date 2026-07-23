@@ -1,0 +1,8 @@
+{"id": "smoke-001", "message": "My lips and tongue are swelling after starting a new antibiotic yesterday. I also feel dizzy.", "label": "emergent", "source": "smoke", "tags": ["api_smoke"]}
+{"id": "smoke-002", "message": "There is a mole on my back that has gotten darker and larger over the past month.", "label": "urgent", "source": "smoke", "tags": ["api_smoke"]}
+{"id": "smoke-003", "message": "Can you recommend a gentle moisturizer for dry winter skin on my arms?", "label": "routine", "source": "smoke", "tags": ["api_smoke"]}
+{"id": "smoke-004", "message": "I need to reschedule my follow-up appointment for next Tuesday.", "label": "admin", "source": "smoke", "tags": ["api_smoke"]}
+{"id": "smoke-005", "message": "Hi, I have a billing question about my last statement. Also I noticed a painful blistering rash on my hands that started yesterday.", "label": "urgent", "source": "smoke", "tags": ["api_smoke", "mixed_intent"]}
+{"id": "smoke-006", "message": "After my skin biopsy last week the site is red, warm, and draining yellow fluid with chills.", "label": "emergent", "source": "smoke", "tags": ["api_smoke"]}
+{"id": "smoke-007", "message": "What is my copay for a dermatology visit and how do I pay online?", "label": "admin", "source": "smoke", "tags": ["api_smoke"]}
+{"id": "smoke-008", "message": "Is it normal for retinoid cream to cause mild peeling during the first week?", "label": "routine", "source": "smoke", "tags": ["api_smoke"]}

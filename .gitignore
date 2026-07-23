@@ -1,0 +1,6 @@
+.venv/
+.venv-test/
+.pytest_cache/
+__pycache__/
+.env
+usecase-healtcare.txt
